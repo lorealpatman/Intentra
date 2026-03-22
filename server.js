@@ -28,7 +28,6 @@ mongoose
   .then(() => {
     console.log('MongoDB connected successfully');
     console.log('Database name:', mongoose.connection.name); // Shows actual DB name
-    console.log('Collections:', mongoose.connection.collections); // Shows collections
   })
   .catch((err) => console.error('MongoDB connection error:', err));
 
